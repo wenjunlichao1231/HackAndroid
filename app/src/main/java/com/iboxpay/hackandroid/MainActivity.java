@@ -20,5 +20,8 @@ public class MainActivity extends Activity {
         Intent intent = new Intent(this, HackService.class);
         startService(intent);
         Log.w(TAG, "onCreate: Activity 启动劫持 Service");
+        Log.w(TAG, "onCreate: Activity 启动劫持 Service");
+        Log.w(TAG, "onCreate: Activity 启动劫持 Service");
+
     }
 }
